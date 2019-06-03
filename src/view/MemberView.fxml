@@ -14,7 +14,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="390.0" stylesheets="@member.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MemberViewController">
    <children>
-      <Label layoutX="190.0" layoutY="521.0" text="Copyright. @2017 PASSION" textFill="#422bb5">
+      <Label layoutX="190.0" layoutY="521.0" text="Copyright. @2017 ShinJungwon" textFill="#422bb5">
          <font>
             <Font name="System Italic" size="14.0" />
          </font>
@@ -43,9 +43,9 @@
       <Button id="btnUpdate" fx:id="btnUpdate" layoutX="264.0" layoutY="192.0" mnemonicParsing="false" onMouseClicked="#handleUpdate" text="수정" />
       <Button id="btnDelete" fx:id="btnDelete" layoutX="328.0" layoutY="192.0" mnemonicParsing="false" onMouseClicked="#handleDelete" text="삭제" />
       
-      <TableView fx:id="tableViewMember" layoutX="13.0" layoutY="245.0" prefHeight="189.0" prefWidth="364.0">
+      <TableView fx:id="tableViewMember" layoutX="13.0" layoutY="245s.0" prefHeight="189.0" prefWidth="364.0">
         <columns>
-          <TableColumn fx:id="columnID" prefWidth="95.0" text="아이디" />
+          <TableColumn fx:id="columnID" prefWidth="95.0" text="�아이디" />
           <TableColumn fx:id="columnName" prefWidth="96.0" text="이름" />
         </columns>
       </TableView>
